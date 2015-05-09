@@ -173,6 +173,14 @@ function UpdateGui(health)
 		healthBar.healthBarRight.ImageColor3 = redColor
 		healthBar.healthBarLeft.ImageColor3 = redColor
 	end
+	
+	--// Newly added feature
+	--// If health = math.huge then we set health-bar to yellow
+	if health==math.huge then
+		healthBar.healthBarCenter.ImageColor3 = yellowColor
+		healthBar.healthBarRight.ImageColor3 = yellowColor
+		healthBar.healthBarLeft.ImageColor3 = yellowColor
+	end
 		
 	local width = (health / currentHumanoid.MaxHealth)
  	width = math.max(math.min(width,1),0) -- make sure width is between 0 and 1
