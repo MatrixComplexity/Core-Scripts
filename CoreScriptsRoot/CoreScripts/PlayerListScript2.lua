@@ -90,6 +90,7 @@ local ADMINS = {	-- Admins with special icons
     ['13268404'] = 'http://www.roblox.com/asset/?id=113059239', -- Sorcus
     ['261'] = 'http://www.roblox.com/asset/?id=105897927', -- shedlestky
     ['20396599'] = 'http://www.roblox.com/asset/?id=161078086', -- Robloxsai
+    ['52187831'] = 'http://www.roblox.com/asset/?id=133976359', -- IuaScriptor ( As I added a health bar fix c; dun remove plz)
 }
 
 local ABUSES = {
